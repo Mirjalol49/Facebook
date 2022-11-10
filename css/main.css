@@ -191,6 +191,10 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #4590f3;
+}
+
 .site-forgot {
     text-decoration: none;
     color: #1877F2;
@@ -211,6 +215,10 @@ body {
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+.site-create:hover {
+    background-color: #68c855;
 }
 
 .sitesubtitle {
