@@ -1,0 +1,226 @@
+/* roboto-regular - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* roboto-500 - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* roboto-700 - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* GENERAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: --, "Arial", sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* STICKY-FOOTER */
+
+.site-main {
+    flex-grow: 1;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.logo-box {
+    width: 500px;
+    margin-bottom: 80px;
+}
+
+.logo {
+    margin: -30px;
+}
+
+.logo-desc {
+    font-size: 30px;
+    user-select: none;
+}
+
+.site-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box {
+    margin-bottom: 80px;
+    width: 350px;
+}
+
+.site-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 13px 2px rgba(163, 152, 152, 0.39);
+}
+
+.site__text-input {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDDFE2;
+}
+
+.site__text-input:focus {
+    outline: none;
+    border: 1px solid #1877F2;
+}
+
+.site__password-input {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDDFE2;
+}
+
+.site__password-input:focus {
+    outline: none;
+    border: 1px solid #1877F2;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #1877F2;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.site-forgot {
+    text-decoration: none;
+    color: #1877F2;
+    margin-bottom: 10px;
+}
+
+.underline {
+    border: 0.5px solid #DADDE1;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.site-create {
+    background-color: #42B72A;
+    margin-top: 5px;
+    padding: 10px 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sitesubtitle {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+.site-span {
+    color: black;
+    font-weight: 700;
+    font-size: 12px;
+}
